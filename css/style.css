@@ -1,0 +1,199 @@
+body{
+    /*background-color: #FDF7E4;*/
+    background-image: url(../img/BATMAN2.jpg_orig);
+    margin: 0%;
+    padding: 0%;
+}
+
+#login{
+    background-color: #FAEED1;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 10px 150px 100px 150px;
+    width: 40px;
+    box-sizing: border-box;
+    border: 2px solid #BBAB8C;
+    border-radius: 2%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    font-size: 20px;
+}
+
+
+#imglogin{
+    width: 180px;
+    height: 180px;
+    border-radius: 100%;
+    margin-bottom: 30px;
+}
+
+#titulos{
+    padding-bottom: 150px;
+}
+
+#boton{
+    padding: 30px 60px 30px 60px;
+    border-radius: 5%;
+    background-color: #DED0B6;
+    border: 2px solid black;
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+  
+}
+
+
+#boton:hover{
+    background-color: #BBAB8C;
+    cursor: pointer;
+}
+
+
+
+/*SEGUNDA ETAPA*/
+
+
+
+#subtitulo{
+    background-color: #FAEED1 ;
+    text-align: center;
+    margin: 0px 0px 100px 0px;
+    padding: 20px;
+    border: 5px solid black;
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    
+}
+
+
+#imgsubtitulo{
+    width: 100px;
+    height: 100px;
+}
+
+#links{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    
+}
+
+.imglinks{
+    width: 260px;
+    height: 260px;
+}
+
+@media(max-width: 1050px){
+    #links{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        gap: 20px;
+        flex-wrap: wrap;
+        align-content: center;
+        align-items: center;
+    }
+
+    .imglinks{
+        border-radius: 100%;
+    }
+
+    #subtitulo{
+        background-color: #FAEED1 ;
+        text-align: center;
+        margin: 0px 0px 80px 0px;
+        padding: 15px;
+        border: 5px solid black;
+        font-family: "Orbitron", sans-serif;
+        font-optical-sizing: auto;
+        
+    }
+    
+    
+    #imgsubtitulo{
+        width: 80px;
+        height: 80px;
+    }
+
+    }
+
+    
+
+@media(max-width: 350px){
+    #links{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        gap: 20px;
+        flex-wrap: wrap;
+        align-content: center;
+        align-items: center;
+        
+    }
+
+    .imglinks{
+        width: 200px;
+        height: 200px;
+        border: 2px solid black;
+        border-radius: 100%;
+    }
+
+    #subtitulo{
+        background-color: #FAEED1 ;
+        text-align: center;
+        margin: 0px 0px 60px 0px;
+        padding: 10px;
+        border: 5px solid black;
+        font-family: "Orbitron", sans-serif;
+        font-optical-sizing: auto;
+        
+    }
+    
+    
+    #imgsubtitulo{
+        width: 60px;
+        height: 60px;
+    }
+}
+
+@media(max-width: 250px){
+    #links{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        gap: 20px;
+        flex-wrap: wrap;
+        align-content: center;
+        align-items: center;
+        
+    }
+
+    .imglinks{
+        width: 120px;
+        height: 120px;
+        border: 2px solid black;
+        border-radius: 100%;
+    }
+
+    #subtitulo{
+        background-color: #FAEED1 ;
+        text-align: center;
+        margin: 0px 0px 40px 0px;
+        padding: 5px;
+        border: 5px solid black;
+        font-family: "Orbitron", sans-serif;
+        font-optical-sizing: auto;
+        
+    }
+    
+    
+    #imgsubtitulo{
+        width: 40px;
+        height: 40px;
+    }
+}
+
